@@ -1,7 +1,7 @@
 docker run -d \
   --name=wg-easy \
-  -e WG_HOST=xxx \
-  -e PASSWORD=xxx \
+  -e WG_HOST=93.100.183.144 \
+  -e PASSWORD=4519sis182867 \
   -v ~/.wg-easy:/etc/wireguard \
   -p 51820:51820/udp \
   -p 51821:51821/tcp \
